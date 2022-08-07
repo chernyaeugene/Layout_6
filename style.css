@@ -69,5 +69,64 @@ h1, h2, h3, h4, h5, h6 {
   src: url("fonts/gilroymedium.eot") format("embedded-opentype"), url("fonts/gilroymedium.woff2") format("woff2"), url("fonts/gilroymedium.woff") format("woff"), url("fonts/gilroymedium.ttf") format("truetype"), url("fonts/gilroymedium.svg#gilroymedium") format("svg");
   font-weight: 500;
   font-style: normal; }
+.menu_list, .header_title-name, .header_lang {
+  font-family: 'gilroybold', sans-serif;
+  font-size: 34px;
+  line-height: 41px; }
+
+.header_about {
+  font-family: 'gilroymedium', sans-serif;
+  font-size: 18px;
+  line-height: 21px; }
+
+body {
+  max-width: 1445px;
+  width: 100%;
+  color: black; }
+
+header {
+  background-color: #FFFFFF; }
+
+.container {
+  max-width: 1005px;
+  padding: 0 30px;
+  margin: 0 auto; }
+
+.header_content-box {
+  padding-top: 5px; }
+
+.menu_list {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 0;
+  font-size: 18px; }
+
+a {
+  color: black; }
+
+.header_menu {
+  border-bottom: 1px solid #828282;
+  margin-bottom: 40px; }
+
+.header_title {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 32px; }
+
+.header_title-name {
+  font-size: 47.34px; }
+
+.header_about {
+  margin-top: 40px; }
+
+.header_lang {
+  font-size: 16px;
+  transform: rotate(-90deg); }
+
+.ru {
+  color: #828282; }
+
+.header_photo {
+  margin-bottom: 105px; }
 
 /*# sourceMappingURL=style.css.map */
