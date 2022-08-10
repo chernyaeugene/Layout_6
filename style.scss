@@ -63,7 +63,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
   font-size: 34px;
   line-height: 41px;
 }
-%txt_medium {
+p {
   font-family: 'gilroymedium', sans-serif;
   font-size: 18px;
   line-height: 21px;
@@ -74,7 +74,7 @@ body  {
   color: black;
 }
 header {
-  background-color: #FFFFFF;
+  background: #FFFFFF;
 }
 .container {
   max-width: 1005px;
@@ -82,12 +82,12 @@ header {
   margin: 0 auto;
 }
 .header_content-box {
-  padding-top: 5px;
+  padding: 35px 0 105px 0;
 }
 .menu_list {
   display: flex;
   justify-content: space-between;
-  padding: 30px 0;
+  margin-bottom: 30px;
   @extend %txt_bold;
   font-size: 18px;
 }
@@ -101,24 +101,86 @@ a {
 .header_title {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 32px;
+  margin-bottom: 31px;
 }
 .header_title-name {
   @extend %txt_bold;
   font-size: 47.34px;
 }
 .header_about {
-  margin-top: 40px;
-  @extend %txt_medium;
+  align-self: flex-end;
 }
 .header_lang {
   @extend %txt_bold;
   font-size: 16px;
-  transform: rotate(-90deg);
+  transform: rotate(-90deg) translateY(45px);
 }
 .ru {
   color: #828282;
 }
-.header_photo {
-  margin-bottom: 105px;
+.ab_me {
+  background: #F6F6F6;
+}
+.ab_me-content {
+  text-align: center;
+  padding: 120px 0 115px;
+}
+.ab_me-title {
+  margin-bottom: 18px;
+  @extend %txt_bold;
+}
+.ab_me-content p {
+  margin-bottom: 50px;
+}
+.ab_me-content p:last-child {
+  margin-bottom: 0;
+}
+.skill {
+  background: #FFFFFF;
+}
+.skill_content {
+  padding: 91px 0 110px;
+  text-align: center;
+}
+.skill_title {
+  margin-bottom: 84px;
+}
+.skill_txt {
+  @extend %txt_bold;
+  margin-bottom: 70px;
+}
+.skill_program-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 90px;
+}
+.program_img {
+  margin-bottom: 25px;
+}
+.program_name {
+  margin-bottom: 41px;
+}
+.ps,
+.ai,
+.ae,
+.fg {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.skill_lvl-ps,
+.skill_lvl-ai,
+.skill_lvl-ae,
+.skill_lvl-fg {
+  display: flex;
+  justify-content: start;
+}
+.skill_lvl-ps div:last-child,
+.skill_lvl-ae div:last-child,
+.skill_lvl-fg div:last-child {
+  display: none;
+}
+.skill_lvl-ai div:nth-last-child(-n+2) {
+  display: none;
 }
