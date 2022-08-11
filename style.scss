@@ -58,12 +58,12 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
   font-style: normal;
 }
 
-%txt_bold {
+h1, h2 {
   font-family: 'gilroybold', sans-serif;
   font-size: 34px;
   line-height: 41px;
 }
-p {
+p, a {
   font-family: 'gilroymedium', sans-serif;
   font-size: 18px;
   line-height: 21px;
@@ -88,7 +88,6 @@ header {
   display: flex;
   justify-content: space-between;
   margin-bottom: 30px;
-  @extend %txt_bold;
   font-size: 18px;
 }
 a {
@@ -104,14 +103,12 @@ a {
   margin-bottom: 31px;
 }
 .header_title-name {
-  @extend %txt_bold;
   font-size: 47.34px;
 }
 .header_about {
   align-self: flex-end;
 }
 .header_lang {
-  @extend %txt_bold;
   font-size: 16px;
   transform: rotate(-90deg) translateY(45px);
 }
@@ -127,7 +124,6 @@ a {
 }
 .ab_me-title {
   margin-bottom: 18px;
-  @extend %txt_bold;
 }
 .ab_me-content p {
   margin-bottom: 50px;
@@ -146,7 +142,6 @@ a {
   margin-bottom: 84px;
 }
 .skill_txt {
-  @extend %txt_bold;
   margin-bottom: 70px;
 }
 .skill_program-list {
@@ -183,4 +178,65 @@ a {
 }
 .skill_lvl-ai div:nth-last-child(-n+2) {
   display: none;
+}
+.portfolio {
+  background: #F6F6F6;
+}
+.portfolio_content {
+  padding: 113px 0 97px;
+  text-align: center;
+}
+.portfolio_title {
+  margin-bottom: 47px;
+}
+.portfolio_img {
+  margin-bottom: 45px;
+}
+.portfolio_link {
+  margin-bottom: 100px;
+}
+.portfolio_content div:last-child{
+  margin-bottom: 0;
+}
+.portfolio_link a {
+  text-decoration: underline black;
+  text-decoration-thickness: 1px;
+}
+.footer {
+  background: #FFFFFF;
+}
+.footer_content {
+  padding: 115px 0;
+  text-align: center;
+}
+.footer_title {
+  margin-bottom: 21px;
+}
+.footer_txt {
+  margin-bottom: 30px;
+}
+.ft_btn {
+  border-radius: 50px;
+  color: white;
+  font-family: 'Gilroy', sans-serif;
+  background-color: black;
+  cursor: pointer;
+  font-size: 18px;
+  line-height: 22px;
+  padding: 13px 28px 7px 28px;
+}
+.footer_button {
+  margin-bottom: 86px;
+}
+.footer_nav_list {
+  display: flex;
+  justify-content: center;
+  gap: 61px;
+}
+.footer_nav {
+  margin-bottom: 45px;
+}
+.footer_txt_bottom p {
+  font-size: 14px;
+  color: #828282;
 }

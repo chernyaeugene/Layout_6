@@ -69,12 +69,12 @@ h1, h2, h3, h4, h5, h6 {
   src: url("fonts/gilroymedium.eot") format("embedded-opentype"), url("fonts/gilroymedium.woff2") format("woff2"), url("fonts/gilroymedium.woff") format("woff"), url("fonts/gilroymedium.ttf") format("truetype"), url("fonts/gilroymedium.svg#gilroymedium") format("svg");
   font-weight: 500;
   font-style: normal; }
-.menu_list, .header_title-name, .header_lang, .ab_me-title, .skill_txt {
+h1, h2 {
   font-family: 'gilroybold', sans-serif;
   font-size: 34px;
   line-height: 41px; }
 
-p {
+p, a {
   font-family: 'gilroymedium', sans-serif;
   font-size: 18px;
   line-height: 21px; }
@@ -189,5 +189,66 @@ a {
 
 .skill_lvl-ai div:nth-last-child(-n+2) {
   display: none; }
+
+.portfolio {
+  background: #F6F6F6; }
+
+.portfolio_content {
+  padding: 113px 0 97px;
+  text-align: center; }
+
+.portfolio_title {
+  margin-bottom: 47px; }
+
+.portfolio_img {
+  margin-bottom: 45px; }
+
+.portfolio_link {
+  margin-bottom: 100px; }
+
+.portfolio_content div:last-child {
+  margin-bottom: 0; }
+
+.portfolio_link a {
+  text-decoration: underline black;
+  text-decoration-thickness: 1px; }
+
+.footer {
+  background: #FFFFFF; }
+
+.footer_content {
+  padding: 115px 0;
+  text-align: center; }
+
+.footer_title {
+  margin-bottom: 21px; }
+
+.footer_txt {
+  margin-bottom: 30px; }
+
+.ft_btn {
+  border-radius: 50px;
+  color: white;
+  font-family: 'Gilroy', sans-serif;
+  background-color: black;
+  cursor: pointer;
+  font-size: 18px;
+  line-height: 22px;
+  padding: 13px 28px 7px 28px; }
+
+.footer_button {
+  margin-bottom: 86px; }
+
+.footer_nav_list {
+  display: flex;
+  justify-content: center;
+  gap: 61px; }
+
+.footer_nav {
+  margin-bottom: 45px; }
+
+.footer_txt_bottom p {
+  font-size: 14px;
+  color: #828282; }
 
 /*# sourceMappingURL=style.css.map */
