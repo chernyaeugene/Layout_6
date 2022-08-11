@@ -76,7 +76,7 @@ body  {
 header {
   background: #FFFFFF;
 }
-.container {
+.container, .menu_container {
   max-width: 1005px;
   padding: 0 30px;
   margin: 0 auto;
@@ -94,7 +94,7 @@ header {
 a {
   color: black;
 }
-.header_menu_menu {
+.header_menu {
   position: fixed;
   background: #FFFFFF;
   top: 0;
@@ -103,11 +103,8 @@ a {
   z-index: 10;
   padding-top: 43px;
 }
-.header_menu {
-  //border-bottom: 1px solid #828282;
-  max-width: 1005px;
-  padding: 0 30px;
-  margin: 0 auto;
+.menu_box_list {
+  border-bottom: 1px solid #828282;
 }
 .header_title {
   display: flex;
