@@ -1,8 +1,8 @@
 // прокрутка
 const menuLinks = document.querySelectorAll('.menu_link[data-goto]');
 if (menuLinks.length > 0) {
-    menuLinks.forEach(menuLinks => {
-        menuLinks.addEventListener("click", onMenuLinkClick);
+    menuLinks.forEach(menuLink => {
+        menuLink.addEventListener("click", onMenuLinkClick);
     });
     function onMenuLinkClick(e) {
         const menuLink = e.target;
@@ -15,6 +15,10 @@ if (menuLinks.length > 0) {
                 behavior: "smooth"
             });
             e.preventDefault();
+            menuLinks.forEach(menuLink => {
+                menuLink.style.color = '#828282';
+            });
+            e.target.style.color = 'black';
         }
     }
 }

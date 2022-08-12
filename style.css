@@ -87,7 +87,7 @@ body {
 header {
   background: #FFFFFF; }
 
-.container, .menu_container {
+.container {
   max-width: 1005px;
   padding: 0 30px;
   margin: 0 auto; }
@@ -96,23 +96,11 @@ header {
   padding: 92px 0 105px 0;
   text-align: center; }
 
-.menu_list {
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 30px;
-  font-size: 18px; }
+.menu_icon {
+  display: none; }
 
 a {
   color: black; }
-
-.header_menu {
-  position: fixed;
-  background: #FFFFFF;
-  top: 0;
-  left: 0;
-  width: 100%;
-  z-index: 10;
-  padding-top: 43px; }
 
 .menu_box_list {
   border-bottom: 1px solid #828282; }
