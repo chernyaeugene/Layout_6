@@ -23,6 +23,44 @@
     .menu_box_list {
         border-bottom: 1px solid #828282;
     }
+    .header_title {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 43px;
+        margin-bottom: 31px;
+    }
+    .photo_mobile {
+        display: none;
+    }
+    .skill_program-list {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 90px;
+    }
+    .portfolio_title {
+        margin-bottom: 47px;
+    }
+    .portfolio_img {
+        margin-bottom: 45px;
+    }
+    .portfolio_link {
+        margin-bottom: 100px;
+    }
+    .footer_content {
+        padding: 115px 0;
+        text-align: center;
+    }
+    .footer_title {
+        margin-bottom: 21px;
+    }
+    .footer_txt {
+        margin-bottom: 30px;
+    }
+    .footer_button {
+        margin-bottom: 86px;
+    }
+
 }
 @media (max-width: 767px) {
     .header_menu {
@@ -101,5 +139,80 @@
     .menu_link {
         font-family: 'gilroybold', sans-serif;
         font-size: 34px;
+    }
+    .header_content-box {
+        padding: 65px 0 83px 0;
+    }
+    .header_title {
+        margin-bottom: 37px;
+    }
+    .header_title-name {
+        margin-bottom: 23px;
+    }
+    .header_lang {
+        display: none;
+    }
+    .photo {
+        text-align: center;
+        overflow: hidden;
+    }
+    .photo_mobile {
+        width: 317px;
+        height: 478px;
+        object-fit: cover;
+    }
+    .header_photo {
+        display: none;
+    }
+    .skill_content {
+        padding: 83px 0 99px;
+    }
+    .skill_title {
+        margin-bottom: 50px;
+    }
+    .skill_lvl-ps,
+    .skill_lvl-ai,
+    .skill_lvl-ae,
+    .skill_lvl-fg {
+        justify-content: center;
+        margin-bottom: 81px;
+    }
+    .skill_lvl-fg {
+        margin-bottom: 0;
+    }
+    .portfolio_content {
+        padding: 81px 0;
+    }
+    .portfolio_title {
+        margin-bottom: 65px;
+    }
+    .portfolio_img {
+        margin-bottom: 33px;
+    }
+    .portfolio_link {
+        margin-bottom: 77px;
+    }
+    .footer_content {
+        padding: 82px 0 90px;
+        text-align: center;
+    }
+    .footer_title {
+        margin-bottom: 27px;
+    }
+    .footer_txt {
+        margin-bottom: 40px;
+    }
+    .ft_btn {
+        border-radius: 50px;
+        padding: 12px 97px;
+    }
+    .footer_button {
+        margin-bottom: 48px;
+    }
+    .footer_nav_list {
+        gap: 52px;
+    }
+    .footer_txt_bottom p {
+        font-size: 18px;
     }
 }

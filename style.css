@@ -110,12 +110,6 @@ a {
 .menu_box_list {
   border-bottom: 1px solid #828282; }
 
-.header_title {
-  display: flex;
-  justify-content: space-between;
-  padding-top: 43px;
-  margin-bottom: 31px; }
-
 .header_title-name {
   font-size: 47.34px; }
 
@@ -130,8 +124,10 @@ a {
 .ru {
   color: #828282; }
 
-.photo {
-  overflow: hidden; }
+.header_photo, .portfolio_img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; }
 
 .ab_me {
   background: #F6F6F6; }
@@ -162,12 +158,6 @@ a {
 .skill_txt {
   margin-bottom: 70px; }
 
-.skill_program-list {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 90px; }
-
 .program_img {
   margin-bottom: 25px; }
 
@@ -189,30 +179,12 @@ a {
   display: flex;
   justify-content: start; }
 
-.skill_lvl-ps div:last-child,
-.skill_lvl-ae div:last-child,
-.skill_lvl-fg div:last-child {
-  display: none; }
-
-.skill_lvl-ai div:nth-last-child(-n+2) {
-  display: none; }
-
 .portfolio {
   background: #F6F6F6; }
 
 .portfolio_content {
   padding: 113px 0 97px;
   text-align: center; }
-
-.portfolio_title {
-  margin-bottom: 47px; }
-
-.portfolio_img {
-  margin-bottom: 45px;
-  overflow: hidden; }
-
-.portfolio_link {
-  margin-bottom: 100px; }
 
 .portfolio_content div:last-child {
   margin-bottom: 0; }
@@ -224,28 +196,15 @@ a {
 .footer {
   background: #FFFFFF; }
 
-.footer_content {
-  padding: 115px 0;
-  text-align: center; }
-
-.footer_title {
-  margin-bottom: 21px; }
-
-.footer_txt {
-  margin-bottom: 30px; }
-
 .ft_btn {
   border-radius: 50px;
   color: white;
-  font-family: 'Gilroy', sans-serif;
+  font-family: 'gilroybold', sans-serif;
   background-color: black;
   cursor: pointer;
   font-size: 18px;
   line-height: 22px;
   padding: 13px 28px 7px 28px; }
-
-.footer_button {
-  margin-bottom: 86px; }
 
 .footer_nav_list {
   display: flex;
@@ -253,7 +212,7 @@ a {
   gap: 61px; }
 
 .footer_nav {
-  margin-bottom: 45px; }
+  margin-bottom: 46px; }
 
 .footer_txt_bottom p {
   font-size: 14px;
